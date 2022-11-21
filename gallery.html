@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- A11y slider -->
+    <link rel="stylesheet" href="//unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+    <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
+
+    <title>Maestro Car Wash</title>
+  </head>
+  <body>
+    <header>
+      <div class="primary-header container">
+        <div class="nav-wrapper">
+          <a href="/car-wash" aria-label="home">
+            <img src="images/logo.svg" width="146" height="24" alt="logo">
+          </a>
+          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <img class="icon-hamburger" src="images/icon-hamburger.svg" alt="menu" aria-hidden="true">
+            <img class="icon-close" src="images/icon-close.svg" alt="close" aria-hidden="true">
+            <span class="visually-hidden">Menu</span>
+          </button>
+
+          <nav class="primary-navigation">
+            <ul aria-label="Primary" role="list" class="nav-list">
+              <li><a href="/car-wash">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </nav>
+
+          <a class ="phone | display-sm-none display-md-inline-flex" href="(786) 477-2979">
+            <div class="container-circle">
+              <img src="images/phone-call.png" height="22" width="22" alt="phone">
+            </div>
+            Call us
+          </a>
+
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="padding-block-700" id="hero-page">
+
+        <div class="container hero-page-grid">
+
+            <div class="text-content">
+              <!-- Can you :before here -->
+          
+              <h5 class="text-accent fw-bold text-transform-upper line">Gallery</h5>
+              <h1>Check out our works</h1>
+        
+            </div>
+            <div class="image-holder">
+              <img src="images/bmw-orange.png" alt="orange-car">
+            </div>
+          
+        </div>
+      </section>
+      <section id="exterior-gallery">
+        <h2 class="text-primary-dark">Exterior Gallery</h2>
+     
+        <ul class="slider">
+            <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEXd-hqk_gfXduhuC-q0ttQdpE8YggYLTWUYdjlCRzKOyEZQueNAy6Fjyhgr1U0oAcsEy07GvJcnK8UaHsxkPf04xZtp8Z7qoukqdDzvSx5M8JIRcr4xW3c438jnEwzTGyTsMO8WjosRD0rzvh-9N_VM=w1666-h1249-no?authuser=0" alt=""></li>
+            <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEVpbbHy_ZOlEa8egBiYbIzQr9cnX3w8_AUO2aQ4P6CMWI10-JIW2byLokQMQZUCrBnhlXptULfZXBwvX-ZXKe9yaKpPNKqFmWNYba60ALeSDi-IBGHXVGEbQTy4d4tRWAeVQUQdQlTmrUdlzUlpu1hV=w1666-h1249-no?authuser=0" alt=""></li>
+            <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEUWpA9EZ3dBzah2CZ0Js8IqSbjoAh1Bgi85E1VlOxgaDUismGqvXlpFvN-X_nDSLnZEPIObunCFJSqoJLVA9TrmxbIdxOHmNr_jGtKQrADp6GnEPUZLoeHCW2Dp331LEGwLNGO1-KA2vngkiqp4uMn5=w1666-h1249-no?authuser=0" alt=""></li>
+            <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEV9eKEgXrZXroMlMhNUt0RITaUjVcE7IVrEFKUulRPyB5CmTwg87foAGNPVFHMMno6eWaClGNwv4x2svfZUmybLoNTB5zc3_b0nUN398sD0vz4p7QZs7L0r5MKwro4IS7YsYwaNxkjunRxnC1TdefMn=w1666-h1249-no?authuser=0" alt=""></li>
+            <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEXd-hqk_gfXduhuC-q0ttQdpE8YggYLTWUYdjlCRzKOyEZQueNAy6Fjyhgr1U0oAcsEy07GvJcnK8UaHsxkPf04xZtp8Z7qoukqdDzvSx5M8JIRcr4xW3c438jnEwzTGyTsMO8WjosRD0rzvh-9N_VM=w1666-h1249-no?authuser=0" alt=""></li>
+            <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEVpbbHy_ZOlEa8egBiYbIzQr9cnX3w8_AUO2aQ4P6CMWI10-JIW2byLokQMQZUCrBnhlXptULfZXBwvX-ZXKe9yaKpPNKqFmWNYba60ALeSDi-IBGHXVGEbQTy4d4tRWAeVQUQdQlTmrUdlzUlpu1hV=w1666-h1249-no?authuser=0" alt=""></li>
+            <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEUWpA9EZ3dBzah2CZ0Js8IqSbjoAh1Bgi85E1VlOxgaDUismGqvXlpFvN-X_nDSLnZEPIObunCFJSqoJLVA9TrmxbIdxOHmNr_jGtKQrADp6GnEPUZLoeHCW2Dp331LEGwLNGO1-KA2vngkiqp4uMn5=w1666-h1249-no?authuser=0" alt=""></li>
+            <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEV9eKEgXrZXroMlMhNUt0RITaUjVcE7IVrEFKUulRPyB5CmTwg87foAGNPVFHMMno6eWaClGNwv4x2svfZUmybLoNTB5zc3_b0nUN398sD0vz4p7QZs7L0r5MKwro4IS7YsYwaNxkjunRxnC1TdefMn=w1666-h1249-no?authuser=0" alt=""></li>
+        </ul>
+      </section>
+      <section id="interior-gallery">
+        <h2 class="text-primary-dark">Interior Gallery</h2>
+
+        <ul class="slider2">
+          <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEX9JEjqTBptX67Qbl0DLeWZC8C3LkZzXiEu2TaszpvoOCkZXVcAmaPRgKMQjDIL38ooM9zWVJXuDZMam1RBN1tTvdRPl7SUo5v58n5kG5f4pTlOQPf38IbnrlttibkTvBqRcgPTAV2z8GkUVy_I9YmE=w1666-h1249-no?authuser=0" alt=""></li>
+          <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEV_HJflzbY4Fydu3YB8Yc5i91S76a1uvLN66XmkDjxsOUxv8e3P1pOK3n1WUVq-gST2CJTrLYt_w-0djNfQ8o4aes0pMF-xqQJqkvMm7EDnTDIyHC5XefGP5booSr7g4P3m2bXdA76ozrgYOFEoehiO=w1666-h1249-no?authuser=0" alt=""></li>
+          <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEXS1bXX7mKNnfGHxRe2nESHMJzFkqVtcIJzBl5j15V0VQ4z-Zv-Xy_SCYSgcns76WffeS31WgY1m3aTBlOnkQQMX5e1qg8XWbcKqdVzKoh7_4tJc6x5ri6bwBl5gBrCfx3ouVsOknawIiFIh_esZYVS=s1249-no?authuser=0" alt=""></li>
+          <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEUEh_PcNjWAGQINo-PpnM7zufrbC0dx-umD7M9DElcdoLDnMGQ8HpPzxonvLx0-bPM5B3VoarWuBwcDnal-5UEQJUjRqNPPMiLPFu27aZ1d22XXWhJS-kuU8Wz17jduy4BzBRc34nk2l17ETpdIFLtU=s1249-no?authuser=0" alt=""></li>
+          <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEX9JEjqTBptX67Qbl0DLeWZC8C3LkZzXiEu2TaszpvoOCkZXVcAmaPRgKMQjDIL38ooM9zWVJXuDZMam1RBN1tTvdRPl7SUo5v58n5kG5f4pTlOQPf38IbnrlttibkTvBqRcgPTAV2z8GkUVy_I9YmE=w1666-h1249-no?authuser=0" alt=""></li>
+          <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEV_HJflzbY4Fydu3YB8Yc5i91S76a1uvLN66XmkDjxsOUxv8e3P1pOK3n1WUVq-gST2CJTrLYt_w-0djNfQ8o4aes0pMF-xqQJqkvMm7EDnTDIyHC5XefGP5booSr7g4P3m2bXdA76ozrgYOFEoehiO=w1666-h1249-no?authuser=0" alt=""></li>
+          <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEXS1bXX7mKNnfGHxRe2nESHMJzFkqVtcIJzBl5j15V0VQ4z-Zv-Xy_SCYSgcns76WffeS31WgY1m3aTBlOnkQQMX5e1qg8XWbcKqdVzKoh7_4tJc6x5ri6bwBl5gBrCfx3ouVsOknawIiFIh_esZYVS=s1249-no?authuser=0" alt=""></li>
+          <li><img src="https://lh3.googleusercontent.com/pw/AL9nZEUEh_PcNjWAGQINo-PpnM7zufrbC0dx-umD7M9DElcdoLDnMGQ8HpPzxonvLx0-bPM5B3VoarWuBwcDnal-5UEQJUjRqNPPMiLPFu27aZ1d22XXWhJS-kuU8Wz17jduy4BzBRc34nk2l17ETpdIFLtU=s1249-no?authuser=0" alt=""></li>
+ 
+        </ul>
+      </section>
+
+    
+
+      <!-- Testimonials -->
+      <section id="review" class="bg-image">
+        <div class="container d-grid">
+          <div class="item-1">
+            <div class="d-flex">
+              <h3 class="text-neutral-900 fs-secondary-heading fw-semi-bold">1300</h3>
+              <img src="images/bubble-plus.png" alt="bubble">
+            </div>
+            <h4 class="text-neutral-900 fs-secondary-heading fw-semi-bold">satisfied customers</h4>
+          </div>
+          <div class="item-2">
+            <img class= "image-reviewer" src="https://api.lorem.space/image/face?w=150&h=150" alt="">
+          </div>
+          <div class="item-3">
+            <img src="images/quote.png" alt="quote">
+            <div class="text-content-wrap">
+              <p class="quote">Diam consequat, tincidunt turpis integer. Nulla sit placerat hendrerit id amet id ut. Erat ultricies diam senectus velit odio elit metus. Eu ac egestas sit sed tincidunt.</p>
+              <p class="author">James Atkison</p>
+            </div>
+          </div>
+        </div>
+     
+      </section>
+      <section class="bg-white" id="cta">
+        <div class="container">
+          <div class="row-1">
+            <div class="text-content">
+              <h3>Want to get fast and detailed car washing?</h3>
+              <h2 class="text-accent">Book it now!</h2>
+            </div>
+            <div class="image-placer-bubble">
+              <img src="images/bubble.png" alt="bubble">
+            </div>
+         
+            <div class="button-container">
+              <button class="button">contact us!</button>
+            </div>
+          </div>
+          <div class="row-2">
+            <div class="contact-info">
+              <h4>Call us if you need any help</h4>
+              <h3>(786) - 666 - 666</h3>
+            </div>
+            <div class="image-placer">
+              <img src="images/logo.png" height="130" width="120" alt="logo">
+            </div>
+            <div class="address-container">
+              <p>700 Northeast 27th Street Miami, Florida 33156</p>
+            </div>
+        
+          </div>
+        </div>
+      </section>
+      <footer class="primary-footer | padding-block-700 text-neutral-100 bg-neutral-900">
+        <div class="container">
+          <div class="primary-footer-wrapper">
+            <div class="primary-footer-logo-social">
+              <h3>maestro <span class="text-accent fw-semi-bold">detailing</span></h3>
+              <ul class = "social-list" role="list" aria-label="Social links">
+                <!-- social media logo goes here -->
+                 <li><a href="https://www.facebook.com"><img class="social-icon" src="images/icon-facebook.svg" alt=""></a></li>
+                 <li><a href="https://www.instagram.com"><img class= "social-icon" src="images/icon-instagram.svg" alt=""></a></li>
+                 <li><a href="https://www.youtube.com"><img class="social-icon" src="images/icon-youtube.svg" alt=""></a></li>
+                 <li><a href="https://www.twitter.com"><img class="social-icon" src="images/icon-twitter.svg" alt=""></a></li>
+              </ul>
+            </div>
+            <div class="primary-footer-nav">
+              <nav class="footer-nav">
+                <ul class="flow">
+                  <li><a href="/car-wash">Home</a></li>
+                  <li><a href="./about.html">About us</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="./service.html">Services</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="primary-footer-form">
+              <form action="">
+                <input type="email">
+                <button class="button">Go</button>
+              </form>
+              <p>Copyright 2022. All Rights Reserve</p>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+
+
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
